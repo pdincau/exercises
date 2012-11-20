@@ -31,7 +31,7 @@ if __name__ == '__main__':
 				diff = cv2.absdiff(bg_gray, image_gray)
 	
 				# Threshold difference
-				retval_diff, dst = cv2.threshold(diff, 30, 255, cv2.THRESH_BINARY);
+				retval_diff, dst = cv2.threshold(diff, 50, 255, cv2.THRESH_BINARY);
 
 				cv2.imshow("input video", image)
         			cv2.imshow("motion detected", dst)
