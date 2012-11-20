@@ -4,7 +4,7 @@ import sys
  
 if __name__ == '__main__':
 	if len(sys.argv) != 2:                                         ## Check for error in usage syntax
-		print "Usage : python bg_motion.py <video>"
+		print "Usage : python bg_sub.py <video>"
 	else:
 		video = sys.argv[1]
 		
